@@ -192,7 +192,13 @@ body, html {
     background-color: #c19a6b;
     color: #fff;
 }
-
+/* --- Ajustar tamaño del nombre largo en celulares --- */
+@media screen and (max-width: 480px) {
+    .guest-name {
+        font-size: 0.75rem !important; /* Achica el tamaño del nombre para que entre perfecto */
+        white-space: nowrap;          /* Evita que se corte en dos líneas si cabe */
+    }
+}
 @keyframes aparecerBtn {
     0% { opacity: 0; transform: translateY(15px); }
     100% { opacity: 1; transform: translateY(0); }
