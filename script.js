@@ -52,10 +52,10 @@ function iniciarAnimacion() {
     // 1. La cartilla baja a su posición exacta
     setTimeout(() => {
         cartilla.classList.add("animar-cartilla");
-    }, 600); 
+    }, 1000); 
 
     // 2. El sello de cera aparece inmediatamente después de la cartilla
     setTimeout(() => {
         sello.classList.add("aparecer-sello");
-    }, 1800); 
+    }, 1000); 
 }
