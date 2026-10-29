@@ -1,5 +1,5 @@
 // PEGA AQUÍ LA URL DE TU GOOGLE APPS SCRIPT
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwtnp1KUeI21I8mt-USazfS_1ZmqlPCCMQznalmf0q3aEre9LNSUOh4_PStedmAR1hL/exec";
+const WEB_APP_URL = "https://script.google.com/macros/library/d/1B69ICF89xc4a-i4owK0ci3gTpeFaW08i86L6KXtOJ3EF7B7oMgueDEff/3";
 
 document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
