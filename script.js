@@ -1,4 +1,4 @@
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbyckozovdrrRQpxQ0GC9-MAGNeqxHCmuy8kuB4KSb_D04xPok21I8-g4SaK6p64JI7LZA/exec";
+const WEB_APP_URL = "https://script.google.com/macros/library/d/1pvWn7PQDFgM0vwmNRgWE3NuLzI225Y1jb-j8LiCbO754FbyQNF7tTn8L/2";
 
 document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
