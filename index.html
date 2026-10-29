@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Boda</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fuentes Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Fondo principal -->
+    <div class="background-container" style="background-image: url('assets/fondo.png');">
+        
+        <div class="invitation-wrapper">
+            
+            <div class="invitation-stage">
+                
+                <!-- 1. CAPA INFERIOR: EL SOBRE -->
+                <div class="sobre-wrapper" id="sobre">
+                    <img src="assets/sobre.png" alt="Sobre" class="img-sobre">
+                </div>
+
+                <!-- 2. CAPA INTERMEDIA: LA CARTILLA (Cuadrado amarillo) -->
+                <div class="cartilla-wrapper" id="cartilla">
+                    <img src="assets/cartilla.png" alt="Cartilla" class="img-cartilla">
+                    
+                    <div class="cartilla-content">
+                        <p class="sub-title">Con aprecio para:</p>
+                        <h2 class="guest-name" id="nombre-invitado">Cargando...</h2>
+                        
+                        <p class="sub-title" style="margin-top: 10px;">Hemos reservado</p>
+                        <h3 class="total-pases" id="total-pases">-- PASES</h3>
+                        
+                        <p class="passes-description" id="detalle-pases">Cargando detalles...</p>
+                    </div>
+                </div>
+
+                <!-- 3. CAPA SUPERIOR: EL SELLO DE CERA (Círculo verde) -->
+                <div class="sello-wrapper" id="sello">
+                    <img src="assets/sello.png" alt="Sello de cera" class="img-sello">
+                </div>
+
+            </div>
+
+            <!-- 4. BOTÓN "VER DETALLES" (Rectángulo celeste) -->
+            <div class="btn-detalles-container" id="btn-detalles">
+                <a href="https://tu-enlace-de-canva.com" target="_blank" class="btn-detalles">VER DETALLES</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
